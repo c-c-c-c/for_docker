@@ -1499,6 +1499,16 @@ div.cell.selected {
  border: medium solid #1e1e1e;
  border-radius: 5px;
 }
+
+/* Jupyter cell is in normal mode when code mirror */
+.edit_mode .cell.selected .CodeMirror-focused.cm-fat-cursor {
+background-color: #000000 !important;
+}
+/* Jupyter cell is in insert mode when code mirror */
+.edit_mode .cell.selected .CodeMirror-focused:not(.cm-fat-cursor) {
+background-color: #000000 !important;
+}
+
 div.cell.edit_mode {
  padding: 0px;
  background: #282828;
