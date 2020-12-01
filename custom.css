@@ -3064,7 +3064,8 @@ div.CodeMirror-linenumber,
  border-left: 2px solid #0095ff !important;
 }
 .cm-s-ipython span.cm-comment {
- color: #75715e;
+ /* color: #75715e; */
+ color: #b3ac89;
  font-style: italic;
 }
 .cm-s-ipython span.cm-atom {
@@ -3168,7 +3169,8 @@ div.cell.text_cell .cm-s-default span.cm-variable-3 {
  color: #fd971f !important;
 }
 .cm-s-default span.cm-comment {
- color: #75715e !important;
+ color: #b3ac89 !important;
+ /*color: #75715e !important;*/
 }
 .cm-s-default .cm-tag {
  color: #529b2f;
