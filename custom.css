@@ -1879,7 +1879,8 @@ div.cell.text_cell.rendered .prompt {
  font-family: "Inconsolata-g", monospace, monospace;
  font-size: 9.5pt !important;
  font-weight: normal;
- color: #75715e !important;
+ /*color: #75715e !important;*/
+ color: #b3ac89 !important;
  text-align: right !important;
  min-width: 14.5ex !important;
  width: 14.5ex !important;
@@ -1891,7 +1892,8 @@ div.cell.text_cell.unrendered .prompt {
  font-family: "Inconsolata-g", monospace, monospace;
  font-size: 9.5pt !important;
  font-weight: normal;
- color: #75715e !important;
+ /*color: #75715e !important;*/
+ color: #b3ac89 !important;
  text-align: right !important;
  min-width: 14.5ex !important;
  width: 14.5ex !important;
