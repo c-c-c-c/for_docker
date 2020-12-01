@@ -194,7 +194,8 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
 div#notebook_toolbar div.dynamic-instructions {
  font-family: sans-serif;
  font-size: 17px;
- color: #75715e;
+ /*color: #b3ac89;*/
+ color: #b3ac89;
 }
 span#login_widget > .button,
 #logout {
@@ -415,7 +416,8 @@ ul#tabs a {
 }
 .nav > li.disabled > a,
 .nav > li.disabled > a:hover {
- color: #75715e;
+ /*color: #b3ac89;*/
+ color: #b3ac89;
 }
 .nav-tabs > li > a:before {
  content: "";
@@ -670,7 +672,8 @@ div.notification_widget.info,
  background-color: transparent;
  margin-bottom: 0px !important;
  vertical-align: bottom !important;
- color: #75715e !important;
+ /*color: #b3ac89 !important;*/
+ color: #b3ac89 !important;
  cursor: default !important;
 }
 #notification_area,
@@ -877,7 +880,7 @@ i.fa.fa-icon {
  font-family: sans-serif;
  font-size: 12.0pt;
  font-weight: normal;
- color: #75715e;
+ color: #b3ac89;
  padding: none;
  display: block;
  clear: both;
@@ -1392,16 +1395,16 @@ select.form-control.select-xs {
  -webkit-box-shadow: none;
 }
 ::-webkit-input-placeholder {
- color: #75715e;
+ color: #b3ac89;
 }
 ::-moz-placeholder {
- color: #75715e;
+ color: #b3ac89;
 }
 :-ms-input-placeholder {
- color: #75715e;
+ color: #b3ac89;
 }
 :-moz-placeholder {
- color: #75715e;
+ color: #b3ac89;
 }
 [dir="ltr"] #find-and-replace .input-group-btn + .form-control {
  border: 2px solid rgba(93,92,82,.25) !important;
@@ -1615,7 +1618,7 @@ div.prompt,
  font-family: "Inconsolata-g", monospace, monospace;
  font-size: 9pt !important;
  font-weight: normal;
- color: #75715e;
+ color: #b3ac89;
  line-height: 170%;
  padding: 0px;
  padding-top: 4px;
@@ -1879,7 +1882,7 @@ div.cell.text_cell.rendered .prompt {
  font-family: "Inconsolata-g", monospace, monospace;
  font-size: 9.5pt !important;
  font-weight: normal;
- /*color: #75715e !important;*/
+ /*color: #b3ac89 !important;*/
  color: #b3ac89 !important;
  text-align: right !important;
  min-width: 14.5ex !important;
@@ -1892,7 +1895,7 @@ div.cell.text_cell.unrendered .prompt {
  font-family: "Inconsolata-g", monospace, monospace;
  font-size: 9.5pt !important;
  font-weight: normal;
- /*color: #75715e !important;*/
+ /*color: #b3ac89 !important;*/
  color: #b3ac89 !important;
  text-align: right !important;
  min-width: 14.5ex !important;
@@ -2396,7 +2399,7 @@ mark,
 }
 a.text-warning,
 a.text-warning:hover {
- color: #75715e;
+ color: #b3ac89;
 }
 a.text-warning.bg-warning {
  background-color: #1e1e1e;
@@ -2679,12 +2682,12 @@ body > div.modal.cmd-palette.typeahead-field {
 .command-shortcut:before {
  content: "(command)";
  padding-right: 3px;
- color: #75715e;
+ color: #b3ac89;
 }
 .edit-shortcut:before {
  content: "(edit)";
  padding-right: 3px;
- color: #75715e;
+ color: #b3ac89;
 }
 ul.typeahead-list i {
  margin-left: 1px;
@@ -2702,7 +2705,7 @@ ul.typeahead-list {
 div.input.typeahead-hint,
 input.typeahead-hint,
 body > div.modal.cmd-palette.in > div > div > div > form > div > div.typeahead-field > span.typeahead-query > input.typeahead-hint {
- color: #75715e !important;
+ color: #b3ac89 !important;
  background-color: transparent;
  padding: 3px 10px;
 }
@@ -2787,7 +2790,7 @@ div#short-key-bindings-intro.well,
 #texteditor-backdrop #texteditor-container .CodeMirror-gutters {
  background: #49483e;
  background-color: #49483e;
- color: #75715e;
+ color: #b3ac89;
 }
 .edit_app #menubar .navbar {
  margin-bottom: 0px;
@@ -3044,7 +3047,7 @@ div.tooltiptext.bigtooltip {
  width: 36px;
 }
 .cm-s-ipython .CodeMirror-linenumber {
- color: #75715e;
+ color: #b3ac89;
 }
 .CodeMirror-sizer {
  margin-left: 40px;
@@ -3060,13 +3063,14 @@ div.CodeMirror-linenumber,
  text-align: right;
 }
 .CodeMirror-linenumber {
- color: #75715e;
+ /*color: #b3ac89;*/
+ color: #b3ac89;
 }
 .cm-s-ipython .CodeMirror-cursor {
  border-left: 2px solid #0095ff !important;
 }
 .cm-s-ipython span.cm-comment {
- /* color: #75715e; */
+ /* color: #b3ac89; */
  color: #b3ac89;
  font-style: italic;
 }
@@ -3172,7 +3176,7 @@ div.cell.text_cell .cm-s-default span.cm-variable-3 {
 }
 .cm-s-default span.cm-comment {
  color: #b3ac89 !important;
- /*color: #75715e !important;*/
+ /*color: #b3ac89 !important;*/
 }
 .cm-s-default .cm-tag {
  color: #529b2f;
